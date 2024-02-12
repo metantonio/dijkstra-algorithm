@@ -22,5 +22,5 @@ Next exercise proposition:
 
     Where N = number of time that the user has share something with that user.
 
-- If distance between 2 users that never shared directly, is less than 40, that user should appears as suggestion.
-- If distance between 2 users that never shared directly, is less than 10, that user should appear as recommendation as friend.
+- If distance between 2 users that never shared directly, is less or equal than 40, that user should appears as suggestion.
+- If distance between 2 users that never shared directly, is less or equal than 10, that user should appear as recommendation as friend.
