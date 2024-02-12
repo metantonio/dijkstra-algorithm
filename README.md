@@ -14,7 +14,7 @@ To find the shortest path between Alice and David.
 
 <img src="./Figure_1.png"></img>
 
-Next exercise proposition:
+# Exercise proposition:
 
 - Imagine every person starts with a distance of 100 between them.
 - Every time that a person share somethin with anyone, the distance between them is reduced by:
