@@ -24,3 +24,11 @@ Next exercise proposition:
 
 - If distance between 2 users that never shared directly, is less or equal than 40, that user should appears as suggestion.
 - If distance between 2 users that never shared directly, is less or equal than 10, that user should appear as recommendation as friend.
+
+Solution for the exercise:
+
+```sh
+poetry run python ./exercise.py
+```
+
+<img src="./Figure_2.png"></img>

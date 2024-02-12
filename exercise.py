@@ -73,7 +73,7 @@ def draw_graph(graph, suggestions, recommendations):
         for friend, weight in edges.items():
             G.add_edge(user.name, friend.name, weight=weight, label=f"{weight:.2f}")  # Add edge labels
 
-    pos = nx.spring_layout(G, seed=42)
+    pos = nx.fruchterman_reingold_layout(G)  # Utilizar fruchterman_reingold_layout para posicionar los nodos
     nx.draw(G, pos, with_labels=True, node_size=1000, node_color='lightblue', font_size=10)
 
     # Draw edge labels
