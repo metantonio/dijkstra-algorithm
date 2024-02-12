@@ -55,10 +55,11 @@ def draw_graph(graph, shortest_paths, start_node, end_node):
 
 # Definimos el grafo que representa la red social
 graph = {
-    'Alice': {'Bob': 5, 'Charlie': 2},
+    'Alice': {'Bob': 5, 'Charlie': 2, 'Jhon':1.5},
     'Bob': {'Alice': 5, 'David': 3},
     'Charlie': {'Alice': 2, 'David': 7},
-    'David': {'Bob': 3, 'Charlie': 7}
+    'David': {'Bob': 3, 'Charlie': 7},
+    'Jhon': {'Alice':1.5}
 }
 
 # Especificamos los nodos de inicio y fin para encontrar la distancia más corta entre ellos
