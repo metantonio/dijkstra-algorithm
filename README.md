@@ -22,7 +22,7 @@ To find the shortest path between Alice and David.
 ```py
     distance = 100/(N+1)
 
-#   Where N = number of time that the user has share something with that user.
+#   Where N = number of times that the user has interacted with another user.
 ```
 
 - If distance between 2 users that never shared directly, is less or equal than 40, that user should appears as suggestion.
