@@ -7,7 +7,7 @@ poetry install
 # Run Algorithm
 
 ```sh
-poetry run python ./social.py
+poetry run python ./dijkstra.py
 ```
 
 To find the shortest path between Alice and David.
